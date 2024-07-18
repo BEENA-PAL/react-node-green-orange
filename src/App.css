@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: black;
+}
+
+.matrix {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgb(63, 68, 68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #7a7575;
+  border-radius: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
